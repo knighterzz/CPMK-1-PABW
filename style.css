@@ -1,0 +1,23 @@
+body{
+	font-family: "Arial";
+}
+p, a, label, li{
+	font-size: 14px;
+}
+h3{
+	padding: 10px;
+}
+table, tr{
+	table-layout: auto;
+	border-collapse: collapse;
+	border: 1px solid;
+}
+#top, #bottom{
+	background-color:#F0E5CC;
+}
+#menu{
+	background-color:#FFFFFF;
+}
+#content{
+	background-color:#C6F7DF;
+}

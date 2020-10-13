@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Kelas PAWB</title>
+	<link rel="stylesheet" type="text/css" href="./style.css"/>
+</head>
+<body>
+	<table height="100%" width="100%">
+		<tbody>
+			<tr id="top">
+				<th colspan="2" align="center">
+					<h1>Kelas PABW</h1>
+				</th>
+			</tr>
+
+			<tr valign="top" border="0">
+				<td id=menu align="left">
+					<a href="#" > Menu</a><br>
+					<a href="#" > Daftar Kelas</a><br>
+					<a href="#" > Daftar Mahasiswa</a><br>
+					<a href="#" > Ubah Akun</a>
+				</td>
+				<td id="content">
+					<img src="./logo.png" align="right">
+					<h3>Ini merupakan website resmi dari mata kuliah</h3>
+					<h3>Pengembangan Web Berbasis Web</h3>
+					<p>Syarat untuk dapat login ke sistem adalah registrasi dengan melampirkan:</p>
+					<ul>
+						<li>Scan KTM</li>
+						<li>Scan KTP</li>
+						<li>Foto Diri 4R</li>
+					</ul>
+					<h3 id="regis">Registrasi Data Diri</h3>
+					<div class="formed">
+						<form>
+							<label for="funame">Username:</label>
+							<input type="text" id="funame" name="funame"><br>
+							<label for="fpass">Password:</label>
+							<input type="text" id="fpass" name="fpass"><br>
+							<label for="fkpass">Konfirmasi Password:</label>
+							<input type="text" id="fkpass" name="fkpass"><br>
+							<p>Jenis kelamin: 
+								<input type="radio" name="rbmale" id="rbmale"> <label for="rbmale">Laki-laki</label>
+								<input type="radio" name="rbfem" id="rbfem"> <label for="rbfem">Perempuan</label>
+							</p>
+							<label for="jurusan">Jurusan:</label>
+							<select name="jurusan" id="jurusan">
+								<option value="kim">Teknik Kimia</option>
+								<option value="ind">Teknik Industri</option>
+								<option value="inf">Informatika</option>
+								<option value="ele">Teknik Elektro</option>
+								<option value="mes">Teknik Mesin</option>
+							</select><br>
+							<label for="fakultas">Fakultas: </label>
+							<input type="text" id="fakultas" name="fakultas" value="FTI" readonly><br>
+							<label for="fdiri">Data diri: </label>
+							<textarea id="fdiri" name="fdiri" rows="4" cols="70"></textarea><br>
+							<button type="button">Registrasi</button>
+						</form>
+					</div>
+				</td>
+			</tr>
+			<tr id="bottom">
+				<td colspan="2" align="center">
+					<p>
+						<i>Copyright© 2020 PABW</i>
+					</p>
+					<a href="#">pabw2020@uii</a>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</body>
+</html>
